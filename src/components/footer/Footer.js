@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Typography, Grid, Box } from '@mui/material';
+import { Typography, Grid, Box } from '@mui/material';
 
-const Footer = (props) =>{
+const Footer = () =>{
     return(
         <div>
             <Grid container
@@ -12,7 +12,6 @@ const Footer = (props) =>{
                     <Box>
                         <Typography variant="caption" display="block"
                         color="textSecondary"
-                        variant="caption"
                         align="center">
                         An open source project made in Sri Lanka 
                         --contributed and used by University Students.<br />

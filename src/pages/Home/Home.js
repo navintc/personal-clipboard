@@ -1,19 +1,9 @@
 import React from 'react';
 import './Home.css';
-import Card from '@mui/material/Card';
 
+import { TextField, Button, Stack } from '@mui/material';
 
-import { createTheme } from '@material-ui/core/styles';
-import { ThemeProvider } from "@material-ui/core/styles";
-import { Typography, TextField, Button, Stack, Grid } from '@mui/material';
-
-const darkTheme = createTheme({
-  palette: {
-     mode: 'dark',
-  },
-});
-
-const Home = (props) =>{
+const Home = () =>{
     return(
         <div>
             
